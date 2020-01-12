@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <title>Foto</title>
 <meta charset="utf-8">
@@ -56,6 +56,10 @@ body {
   background-color: #f1f1f1;
   height: auto; /* only for demonstration, should be removed */
 }
+.article li{
+  list-style: none;
+  overflow:auto;
+}
 .section{
   height: 100%;
   position: relative;
@@ -74,6 +78,10 @@ body {
 }
 img{
   position: relative;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 20px;
+  margin-left: -40px;
 }
 </style>
 </head>
@@ -94,14 +102,18 @@ img{
   
   <div class="article">
     <h1>Foto Sayfası</h1>
-    <img src="resimler/kapanAilesi.jpg" style="width: 240px;">
-    <img src="resimler/kapanAilesi.jpg" style="width: 240px;">
-    <img src="resimler/kapanAilesi.jpg" style="width: 240px;">
-    <img src="resimler/kapanAilesi.jpg" style="width: 240px;">
-    <img src="resimler/kapanAilesi.jpg" style="width: 240px;">
-    <img src="resimler/kapanAilesi.jpg" style="width: 240px;">
+    <ul>
+      <li><p><img src="resimler/kapanAilesi.jpg" style="width: 240px;">  Driving a Spyder is a thrill in itself, but the Huracán Evo Spyder was created to amplify your driving experience to the max. Color, scent, and sound become one with the car’s compelling design and ultra-lightweight materials.
+        The power of the 640 CV V10 engine vibrates into a roar, and the supersport exhaust sound fills your ears. The car’s perfectly sleek, aerodynamic body slices through the air, and you race along with it; the thrill of your desire, lifting you higher.</p></li>
 
-  </div>
+    </ul>
+
+    <ul>
+      <li><p><img src="resimler/kapanAilesi.jpg" style="width: 240px;">  With the Huracán Evo Spyder, all it takes is 17 seconds to open its ultra-light convertible top – 17 seconds to touch the sky. And thanks to its revolutionary command center, the Lamborghini Integrated Vehicle Dynamics (LDVI), you can experience the thrill of exceptional performance.
+      </ul>
+
+
+    </div>
 </div>
 
 <div class="footer">
