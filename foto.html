@@ -13,7 +13,7 @@ body {
 }
 
 /* Style the header */
-.header {
+.baslik {
   background-color: #666;
   padding: 1%;
   text-align: center;
@@ -23,7 +23,7 @@ body {
 }
 
 /* Create two columns/boxes that floats next to each other */
-.navigation {
+.navigasyon {
   float: left;
   width: 20%;
   background: #ccc;
@@ -31,7 +31,7 @@ body {
   position: absolute;
   height: 100%;
 }
-.navigation ul {
+.navigasyon ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
@@ -40,15 +40,15 @@ body {
   text-align: center;
 
 }
-.navigation ul li a{
+.navigasyon ul li a{
   color: blue;
   text-decoration: none;
   display: block;
 }
-.navigation ul li{
+.navigasyon ul li{
   padding: 25px 10px;
 }
-.article {
+.icerik {
   float: left;
   margin-left: 20%;
   padding: 20px;
@@ -56,21 +56,16 @@ body {
   background-color: #f1f1f1;
   height: auto; /* only for demonstration, should be removed */
 }
-.article li{
+.icerik li{
   list-style: none;
   overflow:auto;
 }
-.section{
+.yanbar{
   height: 100%;
   position: relative;
   overflow: hidden;
 }
-.section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.footer {
+.alt {
   background-color: #777;
   padding: 10px;
   text-align: center;
@@ -80,44 +75,45 @@ img{
   position: relative;
   margin-bottom: 20px;
   float: left;
-  margin-right: 20px;
-  margin-left: -40px;
+  margin-right: 40px;
+}
+.imgsecond{
+  float: right;
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 40px;
 }
 </style>
 </head>
 <body>
-<div class="header">
-  <h2>HTML CSS Exampleee</h2>
+<div class="baslik">
+  <h2>Lamborghini Huracán Evo Spyder</h2>
 </div>
 
-<div class="section">
-  <div class="navigation">
+<div class="yanbar">
+  <div class="navigasyon">
     <ul>
-      <li><a href="main.html">Main</a></li>
-      <li><a href="#">Oslo</a></li>
-      <li><a href="#">Tokyo</a></li>
-      <li><a href="#">Berlin</a></li>
+      <li><a href="main.html">Anasayfa</a></li>
+      <li><a href="#">Hakkımızda</a></li>
+      <li><a href="#">İletişim</a></li>
     </ul>
   </div>
   
-  <div class="article">
+  <div class="icerik">
     <h1>Foto Sayfası</h1>
     <ul>
       <li><p><img src="resimler/kapanAilesi.jpg" style="width: 240px;">  Driving a Spyder is a thrill in itself, but the Huracán Evo Spyder was created to amplify your driving experience to the max. Color, scent, and sound become one with the car’s compelling design and ultra-lightweight materials.
         The power of the 640 CV V10 engine vibrates into a roar, and the supersport exhaust sound fills your ears. The car’s perfectly sleek, aerodynamic body slices through the air, and you race along with it; the thrill of your desire, lifting you higher.</p></li>
-
-    </ul>
-
-    <ul>
-      <li><p><img src="resimler/kapanAilesi.jpg" style="width: 240px;">  With the Huracán Evo Spyder, all it takes is 17 seconds to open its ultra-light convertible top – 17 seconds to touch the sky. And thanks to its revolutionary command center, the Lamborghini Integrated Vehicle Dynamics (LDVI), you can experience the thrill of exceptional performance.
+      <li><p><img class="imgsecond" src="resimler/kapanAilesi.jpg" style="width: 240px;">  Driving a Spyder is a thrill in itself, but the Huracán Evo Spyder was created to amplify your driving experience to the max. Color, scent, and sound become one with the car’s compelling design and ultra-lightweight materials.
+        The power of the 640 CV V10 engine vibrates into a roar, and the supersport exhaust sound fills your ears. The car’s perfectly sleek, aerodynamic body slices through the air, and you race along with it; the thrill of your desire, lifting you higher.</p></li>
+      <li><p><img src="resimler/kapanAilesi.jpg" style="width: 240px;">  Driving a Spyder is a thrill in itself, but the Huracán Evo Spyder was created to amplify your driving experience to the max. Color, scent, and sound become one with the car’s compelling design and ultra-lightweight materials.
+        The power of the 640 CV V10 engine vibrates into a roar, and the supersport exhaust sound fills your ears. The car’s perfectly sleek, aerodynamic body slices through the air, and you race along with it; the thrill of your desire, lifting you higher.</p></li>
       </ul>
-
-
-    </div>
+  </div>
 </div>
 
-<div class="footer">
-  <p>Footer</p>
+<div class="alt">
+  <p>Copyright</p>
 </div>
 
 </body>
