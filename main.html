@@ -16,12 +16,10 @@ body {
   background-color: #666;
   padding: 1%;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: white;
   height: 140px;
 }
-
-/* Create two columns/boxes that floats next to each other */
 .navigasyon {
   float: left;
   width: 20%;
@@ -53,7 +51,21 @@ body {
   padding: 20px;
   width: 80%;
   background-color: #f1f1f1;
-  height: auto; /* only for demonstration, should be removed */
+  height: auto;
+}
+.icerik li{
+  list-style: none;
+  overflow:auto;
+  font-size: 25px;
+}
+.icerik h1{
+  margin-left: 35px;
+}
+.icerik img{
+  position: relative;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 40px;
 }
 .yanbar{
   height: 100%;
@@ -81,19 +93,19 @@ img{
     <ul>
       <li><a href="huracan.html">Huracan</a></li>
       <li><a href="superleggera.html">Superleggera</a></li>
-      <li><a href="#">Tokyo</a></li>
-      <li><a href="#">Berlin</a></li>
+      <li><a href="regera.html">Regera</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
     </ul>
   </div>
   
   <div class="icerik">
-    <h1>Anasayfa Başlığı</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-
+    <h1>Foto Sayfası</h1>
+    <ul>
+      <li><p><img src="resimler/huracan1.jpg" style="width: 400px;">  Discover all the new models of this exclusive car family, created to shape to your deepest emotions. <a href="huracan.html">Read More...</a>
+      </p></li>
+      <li><p><img class="imgsecond" src="resimler/superleggera1.jpg" style="width: 400px;">  Your heart will leap when you sit inside and press the ignition button. <a href="superleggera.html">Read More...</a> </p></li>
+      <li><p><img src="resimler/regera1.jpg" style="width: 400px;">Sculptured and sensual design, the Huracán’s design is based on the spiky hexagonal forms of the carbon atom. <a href="regera.html">Read More...</a> </p></li>
+    </ul>
   </div>
 </div>
 
