@@ -19,6 +19,7 @@ body {
   font-size: 30px;
   color: white;
   height: 140px;
+  border-bottom: 5px solid white;
 }
 .navigasyon {
   float: left;
@@ -27,31 +28,35 @@ body {
   padding: 20px;
   position: absolute;
   height: 100%;
+  background-image: url("resimler/background.jpg");
 }
 .navigasyon ul {
   list-style-type: none;
-  padding: 0px;
+  padding-top: 50%;
   margin: 0px;
   width: 100%;
   background-color: gray;
   text-align: center;
-
+  background-color: transparent;
 }
 .navigasyon ul li a{
-  color: blue;
+  color: white;
   text-decoration: none;
   display: block;
 }
 .navigasyon ul li{
   padding: 25px 10px;
+  border-bottom: 3px solid white;
+  font-size: 35px;
 }
 .icerik {
   float: left;
   margin-left: 20%;
   padding: 20px;
   width: 80%;
-  background-color: #f1f1f1;
+  background-color: #666;
   height: auto;
+  color: white;
 }
 .icerik li{
   list-style: none;
@@ -77,6 +82,7 @@ body {
   padding: 10px;
   text-align: center;
   color: white;
+  border-top: 5px white solid;
 }
 img{
   position: relative;
@@ -91,15 +97,15 @@ img{
 <div class="yanbar">
   <div class="navigasyon">
     <ul>
-      <li><a href="huracan.html">Huracan</a></li>
-      <li><a href="superleggera.html">Superleggera</a></li>
-      <li><a href="regera.html">Regera</a></li>
-      <li><a href="iletisim.html">İletişim</a></li>
+      <li><a href="main.html">Anasayfa</a></li>
+      <li><a href="huracan.html">Lamborghini Huracán Evo</a></li>
+      <li><a href="superleggera.html">Aston Martin DBS Superleggera</a></li>
+      <li><a href="regera.html">Koenigsegg Regera</a></li>
+      <li><a href="iletisim.html">Hakkımızda</a></li>
     </ul>
   </div>
   
   <div class="icerik">
-    <h1>Foto Sayfası</h1>
     <ul>
       <li><p><img src="resimler/huracan1.jpg" style="width: 400px;">  Discover all the new models of this exclusive car family, created to shape to your deepest emotions. <a href="huracan.html">Read More...</a>
       </p></li>
